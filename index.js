@@ -125,10 +125,10 @@ console.log(Arlo.play());
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Window Binding - without any context this returns the global object.
+  2. Implicit Binding - applies to objects methods, this refers to the object to the left of the period. 
+  3. Explicit Binding - we explicitly tell this what to be with .call .apply .bind.
+  4. New Binding - this applies to the new object being created!
 */
 
 
